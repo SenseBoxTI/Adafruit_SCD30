@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.5)
 
-idf_component_register(SRCS "Adafruit_Sensor.cpp"
+idf_component_register(SRCS "Adafruit_SCD30.cpp"
                        INCLUDE_DIRS "."
-                       REQUIRES arduino Adafruit_BusIO Adafruit_Sensor Adafruit-SSD1306)
+                       REQUIRES arduino adafruit_busio adafruit_sensor adafruit_ssd1306)
 
-project(Adafruit_SCD30)
+project(adafruit_scd30)
